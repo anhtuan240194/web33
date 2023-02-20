@@ -1,0 +1,103 @@
+body {
+  background: #ececec;
+  display: inline-block;
+  padding: 15px;
+}
+.trangdemo {
+  background: #fff;
+  padding: 20px;
+  width: 70%;
+  padding-right: 10px;
+  float: left;
+}
+.button-learn {
+  padding: 3px 10px;
+  background: #e6e6e6;
+  border: 1px solid #5f5f5f;
+  display: inline-block;
+  margin-bottom: 10px;
+  text-decoration: initial;
+  border-radius: 2px;
+  color: #000;
+  margin-right: 10px;
+}
+h3 {
+  font-size: 24px;
+}
+a {
+  text-decoration: initial;
+}
+.comment {
+  padding: 10px;
+  border-radius: 3px;
+  max-width: max-content;
+  background: #f3f3f3;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.comment img {
+  width: 75px;
+  padding: 10px;
+  background: #e2e2e2;
+  border-radius: 50%;
+}
+.input-comment {
+  display: block;
+  height: 45px;
+  min-width: 400px;
+  padding: 10px;
+}
+.marginauto {
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+}
+.button-comment {
+  display: inline-block;
+  margin-bottom: 0;
+  background: #35465c;
+  box-shadow: 0px 1px 3px #000;
+  padding: 5px 10px;
+  color: #fff;
+}
+.sidebar {
+  float: right;
+  padding-left: 10px;
+  background: #fff;
+  width: calc(30% - 40px);
+}
+.boxtacgia {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+.boxtacgia img {
+  border-radius: 50%;
+  width: 64px;
+}
+.infortacgia p {
+  margin-top: 5px;
+}
+.boxblog h3,
+.boxrelate-blog h3,
+.boxedu h3 {
+  color: #fff;
+  position: relative;
+  padding: 10px;
+  background: #2c98f0;
+}
+.boxblog h3:before,
+.boxrelate-blog h3:before,
+.boxedu h3:before {
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #2c98f0;
+  bottom: -10px;
+  content: "";
+  display: block;
+  height: 0;
+  left: 0;
+  position: absolute;
+  width: 0px;
+}
