@@ -1,0 +1,99 @@
+@media (max-width: 768px) {
+  .title {
+    font-size: 30px;
+  }
+  .col-xs-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .col-xs-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .col-xs-8 {
+    max-width: calc(100% * 2 / 3);
+    flex: 0 0 calc(100% * 2 / 3);
+  }
+  .col-xs-12 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  .col-xs-3,
+  .col-xs-4,
+  .col-xs-5,
+  .col-xs-6,
+  .col-xs-7,
+  .col-xs-8,
+  .col-xs-9,
+  .col-xs-10,
+  .col-xs-12 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .xs-none {
+    display: none;
+  }
+  .view-more {
+    width: 150px;
+  }
+  .form-right-container {
+    width: auto;
+  }
+  .form .form-right {
+    padding: 20px;
+    flex: 0 0 100%;
+  }
+  /*Slide*/
+  .slide {
+    padding-top: 120px;
+  }
+  .content-slide h3 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  .content-slide .reservice a {
+    min-width: 150px;
+  }
+  .slide .banner {
+    top: -15%;
+  }
+  /*About*/
+  .about-all:before {
+    display: none;
+  }
+.about-all:after {
+    right: 0%;
+    top: calc(50% - 80px);
+}
+  .galery-item {
+    flex: 0 0 calc(50% - 5px);
+    max-width: calc(50% - 5px);
+  }
+  .service-item {
+    margin-bottom: 30px;
+  }
+  .testimonial-summary {
+    text-align: justify;
+  }
+  .team .row {
+    flex-wrap: unset;
+    overflow-x: auto;
+    overflow-y:hidden;
+  }
+  .team-infor {
+    position: relative;
+    bottom: 60px;
+  }
+  .team-infor-social {
+    opacity: 1;
+    margin-top: 10px;
+    visibility: visible;
+  }
+  .form .form-img-left {
+    max-width: 0;
+  }
+  .form-button-submit {
+    display: block;
+    margin: 0 auto;
+  }
+}

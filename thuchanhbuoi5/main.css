@@ -1,0 +1,38 @@
+body {
+    height:100vh;
+}
+
+main {
+    background:#fff;
+}
+.back-top {
+    background:#0054a8;
+    color:#fff;
+    position:fixed;
+    bottom:80px;
+    right:10px;
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    line-height:40px;
+    z-index:2;
+    transition: all 1s;
+    text-align:center;
+}
+span {
+    visibility:hidden;
+    opacity:0;
+    position:absolute;
+    padding: 0px 55px 0px 15px;
+    border-radius: 50px;
+    background: #003e7c;
+    color: #fff;
+    z-index: -1;
+    top: 0px;
+    width: 150px;
+    left: calc(-100% - 140px);
+}
+.back-top:hover span {
+    visibility: visible;
+    opacity: 1;
+}
