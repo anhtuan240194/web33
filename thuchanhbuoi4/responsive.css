@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
   .title {
-    font-size: 30px;
+    font-size: 30px; 
   }
   .col-xs-3 {
     flex: 0 0 25%;
