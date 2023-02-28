@@ -5,7 +5,7 @@ body {
   padding: 30px 10%; 
 } 
 /*Menu*/
-.main-header {
+.main-header { 
   background: #30598c;
   padding: 10px 50px;
   display: flex;
