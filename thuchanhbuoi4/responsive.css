@@ -6,7 +6,7 @@
     flex: 0 0 25%;
     max-width: 25%;
   }
-  .col-xs-6 {
+  .col-xs-6 { 
     flex: 0 0 50%;
     max-width: 50%;
   }
@@ -61,10 +61,13 @@
   .about-all:before {
     display: none;
   }
-.about-all:after {
+  .about-all:after {
     right: 0%;
     top: calc(50% - 80px);
-}
+  }
+  .galery {
+    flex-wrap: wrap;
+  }
   .galery-item {
     flex: 0 0 calc(50% - 5px);
     max-width: calc(50% - 5px);
@@ -78,7 +81,7 @@
   .team .row {
     flex-wrap: unset;
     overflow-x: auto;
-    overflow-y:hidden;
+    overflow-y: hidden;
   }
   .team-infor {
     position: relative;
