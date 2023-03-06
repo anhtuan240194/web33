@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="index.js">
+    <meta name="description" content="Đây là nội dung summary" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="theme-color" content="#222" />
+    <title>Document</title>
+</head>
+<script>
+
+</script>
+
+
+<body>
+    <nav class="header_nav">
+        <ul class="header_nav-list">
+            <li class="header_nav-item">
+                <a>Nội dung</a>
+            </li>
+            <li class="header_nav-item">
+                <a>Nội dung</a>
+                <ul class="header_nav-lv0">
+                    <li><a href="">Menu cấp 1</a></li>
+                    <li>
+                        <a href="">Menu cấp 1</a>
+                        <ul class="header_nav-lv1">
+                            <li><a href="">Đoán xem</a></li>
+                            <li><a href="">Đoán xem</a></li>
+                            <li><a href="">Đoán xem</a></li>
+                            <li><a href="">Đoán xem</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Menu cấp 1</a></li>
+                    <li><a href="">Menu cấp 1</a></li>
+                </ul>
+            </li>
+            <li class="header_nav-item">
+                <a>Nội dung</a>
+            </li>
+            <li class="header_nav-item">
+                <a>Nội dung</a>
+            </li>
+
+        </ul>
+    </nav>
+    <button class="register">
+        Nội dung nút
+    </button>
+    <div class="box-right"></div>
+    <script>
+        let buttonRegister = document.querySelector('.register');
+        let boxRight = document.querySelector('.box-right');
+    buttonRegister.addEventListener('click',() => {
+        boxRight.classList.toggle('show');
+    });
+        var a = document.querySelector('.classa');
+        var b = document.querySelector('classb');
+        a.addEventListener('click', () => {
+            b.classList.toggle('show');
+        })
+</script>
+</body>
+
+</html>

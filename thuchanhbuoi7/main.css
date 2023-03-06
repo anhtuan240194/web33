@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+.heart {
+    position: relative;
+    width: 400px;
+    top: 40px;
+    height: 400px;
+    left: 40px;
+    transform: scale(1) rotate(-45deg);
+    animation: bupbup 2s linear infinite;
+}
+@keyframes bupbup {
+    0% {
+        transform:scale(1) rotate(-45deg);
+        filter:invert(0);
+    }
+    40% {
+        transform:scale(1) rotate(-45deg);
+        filter:invert(0);
+    }
+    45% {
+         transform:scale(1.1) rotate(-45deg);
+         filter:invert(4);
+    }
+    50% {
+        filter:invert(0);
+         transform:scale(1) rotate(-45deg);
+    }
+    55% {
+        filter:invert(4);
+         transform:scale(1.1) rotate(-45deg);
+    }
+    60% {
+        filter:invert(0);
+         transform:scale(1) rotate(-45deg);
+    }
+    100% {
+        transform:scale(1) rotate(-45deg);
+        filter:invert(0);
+    }
+}
+.box1 {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#ff65d9;
+    border-radius:50%;
+}
+.box2{
+    position:absolute;
+    background:#ff65d9;
+    top:50%;
+    left:50%;
+    width:100%;
+    height:100%;
+    border-radius:50%;
+}
+.box3 {
+    background:#ff65d9;
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:50%;
+    left:0;
+}
+.heart2 {
+    position:relative;
+    width:450px;
+    left: 0;
+    height:450px;
+    transform:scale(1) rotate(-45deg);
+    animation: heart2 4s linear infinite;
+    top: -400px;
+    opacity:0.1;
+}
+@keyframes heart2 {
+       0% {
+        transform:scale(1) rotate(-45deg);
+    }
+    50% {
+         transform:scale(1) rotate(-45deg);
+    }
+    100% {
+        transform:scale(1) rotate(-45deg);
+    }
+}
+span {
+    display: inline-block;
+    font-size:40px;
+}
+@keyframes text {
+    0% {
+        transform:translateY(0px);
+    }
+    50% {
+        transform:translateY(10px);
+    }
+    100% {
+        transform:translateY(0px);
+    }
+}
+p span:nth-child(1) {
+    animation:text 1s 100ms infinite;
+}
+p span:nth-child(2) {
+    animation:text 1s 300ms infinite;
+}
+p span:nth-child(3) {
+    animation:text 1s 500ms infinite;
+}
+p span:nth-child(4) {
+    animation:text 1s 700ms infinite;
+}
+p span:nth-child(5) {
+    animation:text 1s 900ms infinite;
+}
+p span:nth-child(6) {
+    animation:text 1s 1100ms infinite;
+}
+p span:nth-child(7) {
+    animation:text 1s 1300ms infinite;
+}
+
+p span:nth-child(8) {
+    animation:text 1s 1500ms infinite;
+}
+

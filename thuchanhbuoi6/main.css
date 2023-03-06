@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+.heart {
+  position: relative;
+  width: 800px;
+  perspective: 1200px;
+}
+body {
+    background:#000;
+}
+.box {
+  width: 500px;
+  height: 400px;
+  color: #fff;
+  padding: 100px;
+position:absolute;
+  transition: all 0.6s;
+}
+.box-after {
+    background:#000;
+    transform:rotateY(180deg);
+}
+
+.box-before {
+    background:green;
+    backface-visibility: hidden;
+}
+.heart:hover .box-after {
+    transform: rotateY(360deg);
+}
+.heart:hover .box-before {
+    transform: rotateY(180deg);
+}
+.button {
+    width:200px;
+    height:50px;
+    border: 1px solid #000;
+    background: linear-gradient(110deg, #009e93 50%, #fff 50%);
+    background-size:210%;
+    transition:all 0.5s ease;
+}
+.button:hover {
+    background-position:100%;
+}
+.button2 {
+    width: 200px;
+    height: 50px;
+    border: 1px solid #000;
+    background: transparent;
+    background-image: linear-gradient(110deg, #fff0 50%, #009e93 50%);
+    background-size: 210%;
+    transition: all 0.5s ease;
+}
+.button2:hover {
+    background-position:100%;
+}
